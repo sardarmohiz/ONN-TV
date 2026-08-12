@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ONN TV | Latest News</title>
+  <meta name="description" content="ONN TV - Latest Pakistan, World, Sports, Business and Technology News">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-content">
+      <span id="currentDate">Wednesday, August 12, 2026</span>
+
+      <div class="top-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="container header-content">
+
+      <a href="index.html" class="logo">
+        <span class="logo-main">ONN</span>
+        <span class="logo-tv">TV</span>
+      </a>
+
+      <div class="header-tagline">
+        <span>ONLINE NEWS NETWORK</span>
+        <small>Truth. News. Now.</small>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        ☰
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- NAVIGATION -->
+  <nav class="navigation">
+
+    <div class="container">
+
+      <div class="nav-menu" id="navMenu">
+
+        <a href="index.html" class="active">Home</a>
+        <a href="#" data-category="Pakistan">Pakistan</a>
+        <a href="#" data-category="Politics">Politics</a>
+        <a href="#" data-category="World">World</a>
+        <a href="#" data-category="Sports">Sports</a>
+        <a href="#" data-category="Business">Business</a>
+        <a href="#" data-category="Technology">Technology</a>
+        <a href="#" data-category="Entertainment">Entertainment</a>
+
+        <button class="search-button" id="searchButton">
+          🔍
+        </button>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- BREAKING NEWS -->
+  <section class="breaking-wrapper">
+
+    <div class="container breaking-bar">
+
+      <div class="breaking-label">
+        <span class="live-dot"></span>
+        BREAKING NEWS
+      </div>
+
+      <div class="breaking-text" id="breakingNews">
+        Loading latest breaking news...
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SEARCH BOX -->
+  <section class="search-area" id="searchArea">
+
+    <div class="container">
+
+      <div class="search-box">
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search news..."
+        >
+
+        <button id="searchSubmit">
+          Search
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- MAIN -->
+  <main class="container main-content">
+
+
+    <!-- HERO -->
+    <section class="hero-section">
+
+      <div id="heroNews">
+
+        <div class="loading">
+          Loading latest news...
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTENT GRID -->
+    <div class="content-grid">
+
+
+      <!-- LATEST NEWS -->
+      <section class="latest-section">
+
+        <div class="section-heading">
+
+          <h2>Latest News</h2>
+
+          <span></span>
+
+        </div>
+
+        <div class="news-grid" id="latestNews">
+
+          <div class="loading">
+            Loading news...
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="sidebar-box">
+
+          <div class="sidebar-title">
+            <h3>🔥 Trending News</h3>
+          </div>
+
+          <div id="trendingNews">
+
+            <div class="loading">
+              Loading...
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="sidebar-box categories-box">
+
+          <div class="sidebar-title">
+            <h3>News Categories</h3>
+          </div>
+
+          <div class="category-list">
+
+            <a href="#">Pakistan</a>
+            <a href="#">Politics</a>
+            <a href="#">World</a>
+            <a href="#">Sports</a>
+            <a href="#">Business</a>
+            <a href="#">Technology</a>
+            <a href="#">Entertainment</a>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+
+        <div class="footer-logo">
+          ONN <span>TV</span>
+        </div>
+
+        <p>
+          Online News Network — bringing you the latest news
+          from Pakistan and around the world.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h4>Quick Links</h4>
+
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h4>Categories</h4>
+
+        <a href="#">Pakistan</a>
+        <a href="#">World</a>
+        <a href="#">Sports</a>
+        <a href="#">Business</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      © <span id="year"></span> ONN TV. All Rights Reserved.
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
